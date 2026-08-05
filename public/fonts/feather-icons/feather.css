@@ -1,0 +1,4 @@
+/* Placeholder feather icons CSS so local builds don't fail when font files are missing.
+   Replace with full icon font or CDN reference in production. */
+
+.feather { display: inline-block; width: 1em; height: 1em; }
