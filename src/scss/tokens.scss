@@ -1,0 +1,16 @@
+// Placeholder SCSS partials for build — replace with real implementations
+// These files prevent `@use` resolution failures during CI/build when the
+// upstream theme files are missing. They are intentionally minimal.
+
+// src/scss/tokens.scss
+$primary: #1ABB9C;
+$azure: #2F80ED;
+$yellow: #F2C94C;
+$green: #27AE60;
+$red: #EB5757;
+$purple: #8A2DA0;
+
+:root {
+  --primary: #1ABB9C;
+  --azure: #2F80ED;
+}
