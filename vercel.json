@@ -20,7 +20,7 @@
   "trailingSlash": false,
   "rewrites": [
     {
-      "source": "/(?!(?:js|assets|images|fonts|.*\\.\\w+)(?:/|$))(.*)",
+      "source": "/(?!(?:js|assets|images|fonts|.*\\.(?:js|css|jpg|jpeg|png|gif|ico|svg|webp|webmanifest|json))(/)?)(.+)",
       "destination": "/index.html"
     }
   ]
