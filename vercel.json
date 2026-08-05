@@ -18,7 +18,7 @@
   ],
   "rewrites": [
     {
-      "source": "/:path*",
+      "source": "/((?!js|assets|images|fonts|.*\\.\\w+$).*)",
       "destination": "/index.html"
     }
   ]
