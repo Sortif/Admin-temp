@@ -16,9 +16,11 @@
       ]
     }
   ],
+  "cleanUrls": true,
+  "trailingSlash": false,
   "rewrites": [
     {
-      "source": "/((?!js|assets|images|fonts|.*\\.\\w+$).*)",
+      "source": "/(?!(?:js|assets|images|fonts|.*\\.\\w+)(?:/|$))(.*)",
       "destination": "/index.html"
     }
   ]
